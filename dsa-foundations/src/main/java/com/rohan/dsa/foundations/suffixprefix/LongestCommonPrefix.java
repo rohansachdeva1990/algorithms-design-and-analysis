@@ -1,4 +1,4 @@
-package com.rohan.dsa.foundations.string;
+package com.rohan.dsa.foundations.suffixprefix;
 
 public class LongestCommonPrefix {
     public static int lcp(String s, String t) {

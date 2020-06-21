@@ -1,4 +1,4 @@
-package com.rohan.dsa.foundations.string;
+package com.rohan.dsa.foundations.sorting;
 
 /**
  * Least Significant Digit Radix Sort

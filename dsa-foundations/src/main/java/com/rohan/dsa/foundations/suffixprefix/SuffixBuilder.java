@@ -1,4 +1,4 @@
-package com.rohan.dsa.foundations.string;
+package com.rohan.dsa.foundations.suffixprefix;
 
 /**
  * Using String and StringBuilder
