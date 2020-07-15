@@ -8,7 +8,7 @@ import java.util.Arrays;
  * <p>
  * - Divide the array in 2 logical groups - sorted and unsorted
  * - Initially the sorted list contains the first element and the unsorted contains the rest
- * - we choose the a temp value. This temp value is the first element in the unsorted list
+ * - we choose a temp value. This temp value is the first element in the unsorted list
  * - By storing it in a temp variable, we create a hole so that it can be occupied by subsequents shift
  * - we compare the temp with sorted list from last index. If temp is less, then we right shift the sorted list
  * <p>
