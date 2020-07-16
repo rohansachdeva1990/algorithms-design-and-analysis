@@ -1,9 +1,11 @@
-package com.rohan.dsa.foundations.array;
+package challenges.assorted.tpie;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 /**
+ * Category: Arrays & Strings
+ * <p>
  * Write a function that reverses the order of the words in a string. For
  * example, your function should transform the string “Do or do not, there is no
  * try.” to “try. no is there not, do or Do”. Assume that all words are space delimited
@@ -29,6 +31,7 @@ public class WordReverser {
         return sb.toString();
     }
 
+    // Preferred Way
     public String reverseWordsInplace(String str) {
         char[] arr = str.toCharArray();
         int start = 0;
@@ -71,7 +74,6 @@ public class WordReverser {
             end--;
         }
     }
-
 
     public static void main(String[] args) {
         WordReverser o = new WordReverser();

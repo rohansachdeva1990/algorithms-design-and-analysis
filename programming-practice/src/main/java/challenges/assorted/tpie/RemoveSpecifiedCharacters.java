@@ -1,9 +1,11 @@
-package com.rohan.dsa.foundations.array;
+package challenges.assorted.tpie;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * Category: Arrays & Strings
+ * <p>
  * An efficient function that deletes characters from a mutable
  * ASCII string. Your function should take two arguments, str and remove. Any
  * character existing in remove must be deleted from str.

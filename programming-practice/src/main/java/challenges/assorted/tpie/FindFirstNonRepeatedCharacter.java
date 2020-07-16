@@ -1,9 +1,11 @@
-package com.rohan.dsa.foundations.array;
+package challenges.assorted.tpie;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Category: Arrays & Strings
+ * <p>
  * An efficient function to find the first nonrepeated character
  * in a string.
  * <p>
