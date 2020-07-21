@@ -1,4 +1,4 @@
-package challenges.g4g;
+package challenges.g4g.arrays;
 
 public class CyclicRotateArray {
 }
