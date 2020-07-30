@@ -1,4 +1,4 @@
-package challenges.assorted.ctci;
+package challenges.assorted.ctci.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
