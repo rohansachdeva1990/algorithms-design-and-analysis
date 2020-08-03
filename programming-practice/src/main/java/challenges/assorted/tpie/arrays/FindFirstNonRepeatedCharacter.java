@@ -1,4 +1,4 @@
-package challenges.assorted.tpie;
+package challenges.assorted.tpie.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
