@@ -1,5 +1,7 @@
 package challenges.g4g.arrays;
 
+import java.util.Arrays;
+
 /**
  * QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.
  * <p>
@@ -23,7 +25,7 @@ public class QuickSort {
 
         int partition = partition(arr, start, end);
         quickSortHelper(arr, start, partition - 1);
-        quickSortHelper(arr, partition - 1, end);
+        quickSortHelper(arr, partition + 1, end);
     }
 
     private int partition(int[] arr, int start, int end) {
@@ -56,5 +58,15 @@ public class QuickSort {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+    }
+
+    public static void main(String[] args) {
+
+        QuickSort qSort = new QuickSort();
+
+        int[] arr = {7, 6, 10, 5, 9, 2, 1, 15, 7};
+        qSort.quickSort(arr);
+        System.out.println(Arrays.toString(arr));
+
     }
 }
