@@ -2,8 +2,8 @@ package challenges.assorted;
 
 import org.junit.Test;
 
-import static challenges.assorted.AllPrimes.getPrimeNumbersFast;
-import static challenges.assorted.AllPrimes.getPrimeNumbersSlow;
+import static challenges.assorted.misc.AllPrimes.getPrimeNumbersFast;
+import static challenges.assorted.misc.AllPrimes.getPrimeNumbersSlow;
 import static org.junit.Assert.*;
 
 public class AllPrimesTest {
