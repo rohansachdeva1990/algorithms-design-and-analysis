@@ -67,7 +67,7 @@ public class PriorityQueueUsingSortedLinkedList {
                 curr = curr.next;
             }
 
-            // If no elememt
+            // If no element
             if (prev == null) {
                 head = newNode;
             } else {

@@ -7,7 +7,7 @@ import java.util.Arrays;
  * <p>
  * Priority lowest (have high) priority
  * <p>
- * The priority queue shown in Listing 4.6 features fast removal of the high-priority
+ * The priority queue features fast removal of the high-priority
  * item but slow insertion of new items. Write a program with a revised
  * PriorityQ class that has fast O(1) insertion time but slower removal of the highpriority
  * item. Include a method that displays the contents of the priority

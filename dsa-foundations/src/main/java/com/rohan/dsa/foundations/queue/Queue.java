@@ -4,24 +4,7 @@ package com.rohan.dsa.foundations.queue;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-/**
- * FIFO
- * <p>
- * create
- * enQueue
- * deQueue
- * peek
- * isEmpty
- * isFull
- * deleteQueue
- * <p>
- * Takeaways:-
- * <p>
- * Underflow and Overflow conditions
- * FIFO
- * <p>
- * Revisit
- */
+
 public class Queue {
 
     private int[] arr;
@@ -33,7 +16,6 @@ public class Queue {
         arr = new int[size];
         front = -1;
         rear = -1;
-        size = 0;
     }
 
     public void enqueue(int data) {
