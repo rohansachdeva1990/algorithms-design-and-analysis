@@ -3,6 +3,7 @@ package com.rohan.dsa.foundations.patterns;
 import java.util.Scanner;
 
 /*
+    * * * * *
     * * * *
     * * *
     * *
